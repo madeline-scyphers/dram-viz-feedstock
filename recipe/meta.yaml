@@ -1,5 +1,5 @@
 {% set name = "dram-viz" %}
-{% set version = "0.2.5" %}
+{% set version = "0.2.6" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/WrightonLabCSU/dram-viz/archive/{{ version }}.tar.gz
-  sha256: fdae3390c71cd95f734c2decbf40850128839462c487df42147057e5f59f3ae5
+  sha256: fafd8cf0d6246875238563ee9f6bafafb41672e8d8d25f95b684640b92811439
 
 build:
   noarch: python
@@ -28,7 +28,6 @@ requirements:
     - bokeh >=3.0,<4
     - panel >=1.0,<2
     - click <9
-    - numpy <2
     - networkx >=2,<3
     - panel-jstree >=0.3.5,<0.4.0
     - pandas >=1.2,<3
