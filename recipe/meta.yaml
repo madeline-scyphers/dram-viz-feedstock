@@ -1,5 +1,5 @@
 {% set name = "dram-viz" %}
-{% set version = "0.2.9" %}
+{% set version = "0.2.10" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/WrightonLabCSU/dram-viz/archive/{{ version }}.tar.gz
-  sha256: db098cfe3169cad480644c6e8d5621de7a0674dc210aed5335e7a4b4030b9262
+  sha256: a603f04629d058414a5fbdef2c8d0643730a3dca9ddb9b08f920f53bb5c48bec
 
 build:
   noarch: python
